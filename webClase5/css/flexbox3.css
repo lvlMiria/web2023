@@ -1,0 +1,16 @@
+.flexCont{
+    display: flex;
+    border: 2px solid blue;
+    height: 200px;
+    background-color: #94C793;
+}
+
+.box{
+    border: 1px solid #377A36;
+    width: 200px;
+    background-color: #B9FAB8;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

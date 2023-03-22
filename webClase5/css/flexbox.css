@@ -1,0 +1,28 @@
+.box{
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    background-color: #8D92FA;
+    font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; font-size: 14px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexContainer{
+    display: flex;
+    border: 1px solid orange;
+    flex-direction:row;
+    flex-wrap: wrap; /*adapta el tamaño original a la ventana*/
+}
+
+.flexContainer2{
+    display: flex;
+    border: 1px solid orange;
+    flex-direction:row;
+    flex-wrap: wrap; /*adapta el tamaño original a la ventana*/
+    justify-content: space-evenly; /*around between*/
+    height: 500px;
+    align-items: center; /* start y end. para usar stretch hay que quitar height en .box */
+}
