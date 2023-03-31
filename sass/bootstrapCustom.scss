@@ -19,7 +19,8 @@ $custom-color-theme:(
 $theme-colors: map-merge($theme-colors, $custom-color-theme);
 
 //cambiar fuente
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,200&display=swap');
+$font-family: 'Montserrat', sans-serif;
 
 
 //importar bootstrap
