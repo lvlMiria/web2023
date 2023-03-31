@@ -1,0 +1,26 @@
+//Colores personalizados
+$primary:       #bee4a3;
+$secondary:     #b7dfd6;
+$success:       #6dc000;
+$info:          #ffd87d;
+$warning:       #ffc989;
+$danger:        #ff006c;
+$light:         #f8e7e7;
+$dark:          #4f3434;
+
+//Agregar color
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$custom-color-theme:(
+    "atte": #eb4a4a,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-color-theme);
+
+//cambiar fuente
+
+
+
+//importar bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
